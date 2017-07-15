@@ -30,20 +30,6 @@ Plugin 'gmarik/Vundle.vim'
 """""""""""""" Active Plugin """""""""""""""""""""""""""
 " Python auto-complete
 Plugin 'davidhalter/jedi-vim'
-" File browser
-Plugin 'scrooloose/nerdtree'
-" Class/module browser
-Plugin 'majutsushi/tagbar'
-" Code and files fuzzy finder
-Plugin 'kien/ctrlp.vim'
-" Extension to ctrlp, for fuzzy command finder
-Plugin 'fisadev/vim-ctrlp-cmdpalette'
-" Zen coding
-Plugin 'mattn/emmet-vim'
-" Git integration
-Plugin 'motemen/git-vim'
-" Tab list panel
-Plugin 'kien/tabman.vim'
 " Airline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -56,34 +42,9 @@ autocmd VimEnter * call AirlineInit()
 
 " Terminal Vim with 256 colors colorscheme
 Plugin 'fisadev/fisa-vim-colorscheme'
-" Consoles as buffers
-Plugin 'rosenfeld/conque-term'
-" Pending tasks list
-Plugin 'fisadev/FixedTaskList.vim'
-" Surround
-Plugin 'tpope/vim-surround'
-" Autoclose
-Plugin 'Townk/vim-autoclose'
-" Indent text object
-Plugin 'michaeljsmith/vim-indent-object'
 " Python mode (indentation, doc, refactor, lints, code checking, motion and
 " operators, highlighting, run and ipdb breakpoints)
 Plugin 'klen/python-mode'
-" Better autocompletion
-Plugin 'Shougo/neocomplcache.vim'
-" Snippets manager (SnipMate), dependencies, and snippets repo
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'honza/vim-snippets'
-Plugin 'garbas/vim-snipmate'
-" Git/mercurial/others diff icons on the side of the file lines
-Plugin 'mhinz/vim-signify'
-" Automatically sort python imports
-Plugin 'fisadev/vim-isort'
-" Drag visual blocks arround
-Plugin 'fisadev/dragvisuals.vim'
-" Window chooser
-Plugin 't9md/vim-choosewin'
 " Python and other languages code checker
 Plugin 'scrooloose/syntastic'
 " Paint css colors with the real color
